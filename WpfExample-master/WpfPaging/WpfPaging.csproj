@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Group 11.png" />
+    <None Remove="icon.png" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Pages\icons8-закрытый-глаз-100.png" />
+    <None Remove="Pages\icons8-очки-100.png" />
+    <None Remove="Pages\icons8-поиск-256.png" />
+    <None Remove="Pages\mainpicture.jpg" />
+    <None Remove="Pages\pexels-sasha-pshenkov-11701950.jpg" />
+    <None Remove="Windows\Error.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevExpressMvvm" Version="19.2.3" />
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <PackageReference Include="Experimental.System.Messaging" Version="1.1.0" />
+    <PackageReference Include="Experimental.System.Messaging.Signed" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Prism.Autofac.Forms" Version="7.1.0.431" />
+    <PackageReference Include="Prism.Core" Version="8.1.97" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.2.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Group 11.png" />
+    <Resource Include="Images\icon.png" />
+    <Resource Include="Pages\icons8-закрытый-глаз-100.png" />
+    <Resource Include="Pages\icons8-очки-100.png" />
+    <Resource Include="Images\pexels-sasha-pshenkov-11701950.jpg" />
+    <Resource Include="Pages\icons8-поиск-256.png" />
+    <Resource Include="Pages\mainpicture.jpg" />
+    <Resource Include="Pages\pexels-sasha-pshenkov-11701950.jpg" />
+    <Resource Include="Windows\Error.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
